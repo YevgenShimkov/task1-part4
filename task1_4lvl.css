@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+tbody td, thead th  {
+    height: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(219, 73, 73);
+    color: #fff;
+    width: 85%;
+    height: 85%;
+    border: none;
+    font-size: 14px;
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.add_btn {
+    background-color: rgb(68, 79, 233);
+    color: #fff;
+    width: 20%;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+}
+
+.search_form {
+    height: 40px;
+    width: 50%;
+    border:2px rgb(68, 79, 233) solid;
+    left: 20%;
+}
+
+.row_input {
+    width: 90%;
+    height: 90%;
+}
+
+table tbody tr:hover {
+    background-color: rgb(233, 182, 235);
+}
+
+table thead th:hover {
+    background-color: rgb(233, 182, 235);
+}
