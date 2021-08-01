@@ -177,6 +177,7 @@ function addAddBtn(data, url, config) {
     return addButton;
 }
 
+
 /**
  * add field to seach
  */
